@@ -1,0 +1,72 @@
+@relation weather
+
+@attribute outlook {sunny, overcast, rainy}
+@attribute temperature {hot, mild, cool}
+@attribute humidity {high, normal}
+@attribute windy {TRUE, FALSE}
+@attribute play {yes, no}
+
+@data
+sunny,hot,high,FALSE,no
+sunny,hot,high,TRUE,no
+overcast,hot,high,FALSE,yes
+rainy,mild,high,FALSE,yes
+rainy,cool,normal,FALSE,yes
+rainy,cool,normal,TRUE,no
+overcast,cool,normal,TRUE,yes
+sunny,mild,high,FALSE,no
+sunny,cool,normal,FALSE,yes
+rainy,mild,normal,FALSE,yes
+sunny,mild,normal,TRUE,yes
+overcast,mild,high,TRUE,yes
+overcast,hot,normal,FALSE,yes
+rainy,mild,high,TRUE,no
+sunny,hot,normal,FALSE,yes
+sunny,cool,high,FALSE,no
+rainy,hot,high,TRUE,no
+rainy,cool,normal,FALSE,yes
+overcast,mild,normal,TRUE,yes
+sunny,mild,high,TRUE,no
+sunny,hot,high,FALSE,no
+rainy,cool,high,TRUE,no
+overcast,cool,high,FALSE,yes
+overcast,mild,normal,FALSE,yes
+sunny,mild,normal,FALSE,yes
+rainy,mild,normal,TRUE,no
+rainy,cool,normal,FALSE,yes
+sunny,hot,high,FALSE,no
+overcast,hot,normal,TRUE,yes
+sunny,mild,high,FALSE,no
+rainy,mild,high,TRUE,no
+rainy,cool,normal,FALSE,yes
+rainy,cool,high,FALSE,no
+sunny,cool,normal,TRUE,yes
+overcast,hot,high,FALSE,yes
+sunny,mild,high,FALSE,no
+overcast,mild,normal,FALSE,yes
+rainy,hot,high,TRUE,no
+rainy,cool,normal,TRUE,no
+sunny,cool,high,FALSE,no
+overcast,mild,normal,TRUE,yes
+rainy,hot,normal,FALSE,yes
+sunny,mild,normal,FALSE,yes
+overcast,hot,high,TRUE,yes
+rainy,mild,high,FALSE,no
+sunny,hot,normal,FALSE,yes
+overcast,mild,normal,TRUE,yes
+rainy,cool,high,TRUE,no
+rainy,mild,high,FALSE,no
+overcast,hot,normal,FALSE,yes
+sunny,mild,normal,TRUE,yes
+overcast,mild,high,FALSE,yes
+rainy,cool,high,FALSE,no
+sunny,cool,normal,FALSE,yes
+sunny,hot,high,TRUE,no
+rainy,hot,normal,FALSE,yes
+rainy,mild,high,TRUE,no
+overcast,cool,normal,TRUE,yes
+rainy,cool,high,FALSE,no
+overcast,hot,high,FALSE,yes
+sunny,mild,normal,FALSE,yes
+overcast,cool,high,FALSE,yes
+rainy,mild,normal,FALSE,yes
